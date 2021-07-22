@@ -1,0 +1,85 @@
+.header {
+    background-color: white;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#left-left {
+    margin-right: 50px;
+   font-weight: bold;
+   font-size: 3ch;
+   color: black;
+}
+
+#left {
+    margin-left: 100px;
+    font-weight: bold;
+    color: black;
+}
+
+#right {
+    margin-left: 700px;
+    font-weight: bold;
+    font-size: 2ch;
+    color: black;
+  
+}
+
+#szes {
+    background-color: rgb(233, 232, 232);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+#leave {
+    color: rgb(233, 232, 232);
+    font-weight: bold;
+}
+
+#star {
+    padding: 5px 5px 5px 5px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#numb {
+    padding: 5px 5px 5px 5px;
+    width: 50px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.free-shipping {
+    text-align: right;
+}
+
+hr {
+    width: 40px;
+    height: 3px;
+    background-color: rgb(255, 251, 1);
+    border: none;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+.btn-edit {
+    background-color: black;
+    width: 240px;
+}
+
+#para-one {
+    font-weight: bold;
+}
+
+#para-two {
+    color: rgb(182, 176, 176);
+    text-align: center;
+}

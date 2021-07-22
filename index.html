@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart UI</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default header">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="left-left" href="#">Sizes:</a></li>
+            <li><a id="left" href="#">16 Product(s) found</a></li>
+            <li><a id="right" href="#">Order by</a></li>
+            <li>
+              <a>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+    <div class="col-md-2">
+      <button id="szes">Xl</button>
+      <button id="szes">S</button>
+      <button id="szes">M</button>
+      <button id="szes">ML</button> <br><br>
+      <button id="szes">L</button>
+      <button id="szes">XL</button>
+      <button id="szes">XXL</button> <br><br>
+      <p id="leave">Leave a star on Github if this repository was useful</p>
+      <button id="star">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+      </button>
+      <button id="numb">848</button>
+    </div>
+
+    <div class="col-md-10">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/efren-barahona-LcgR80DpHKM-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Cat Tee Black T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">10</span>.90
+            </p>
+            <p id="para-two">or 9 x $1.21</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Du Noir T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">29</span>.45 
+            </p>
+            <p id="para-two">or 5 x $5.89</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/free-to-use-sounds-ObbDrFOudbY-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Green Navy T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">9</span>.00 
+            </p>
+            <p id="para-two">or 3 x $3.00</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/efren-barahona-LcgR80DpHKM-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Wolf Blue Pack T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">14</span>.00 
+            </p>
+            <p id="para-two">or 5 x $2.80</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/efren-barahona-LcgR80DpHKM-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Wolf Blue Pack T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">13</span>.25 
+            </p>
+            <p id="para-two">or 3 x $4.42</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/sebastien-mouilleau-_-ynZTGWz-M-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Levi's White T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">10</span>.90 
+            </p>
+            <p id="para-two">or 9 x $1.21</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/efren-barahona-LcgR80DpHKM-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Wolf Blue Pack T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">10</span>.90 
+            </p>
+            <p id="para-two">or 9 x $1.21</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <p class="free-shipping"><span style="background-color: black; color: white; padding: 4px 5px 5px 5px;">free
+              shipping</span></p>
+          <img src="images/sebastien-mouilleau-_-ynZTGWz-M-unsplash.jpg" alt="model">
+          <div class="caption">
+            <h3>Levi's White T-Shirt</h3>
+            <hr>
+            <p class="text-center" id="para-one">
+              $ <span style="font-size: 30px;">14</span>.90 
+            </p>
+            <p id="para-two">or 7 x $2.13</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-primary btn-edit" role="button">Add to cart</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
